@@ -1,0 +1,32 @@
+.nav {
+  grid-area: n;
+  background-color: #e4e4e4;
+  padding: 20px;
+}
+
+.item a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.item a:focus {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.item:last-child {
+  margin-top: 10px;
+  text-align: center;
+}
+.item:last-child p{
+  padding-right: 20px;
+}
+
+.item:last-child img {
+  width: 30px;
+  height: auto;
+}
+
+.line {
+  margin-top: 15px;
+  height: 2fr; /* Толщина линии */
+}

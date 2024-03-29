@@ -1,0 +1,67 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 2fr 8fr;
+}
+
+.dialogsItems {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+.dialogsItems a {
+  text-decoration: none;
+  color: black;
+}
+
+.dialogsItems .active {
+  color: rgb(255, 255, 255);
+}
+
+.users {
+  font-size: 16px;
+  position: relative;
+  padding: 30px;
+}
+.users::before {
+  content: '';
+  position: absolute;
+  top: 51%;
+  left: -1%;
+  transform: translateY(-51%);
+  display: block;
+  background: url(../../images/pngegg.png) 0 0 / 100% no-repeat;
+  width: 22px;
+  height: 22px;
+}
+
+.lineVert {
+  width: 1px;
+  height: 100vh;
+}
+
+.sms {
+  width: 20%;
+  padding: 30px;
+  margin: 20px 0px 20px 30px;
+  font-size: 20px;
+  position: relative;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.sms::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -80px;
+  transform: translateY(-50%);
+  display: block;
+  background: url(../../images/pngwing.com.png) 0 0 / 100% no-repeat;
+  width: 50px;
+  height: 60px;
+}
+
+
+.messages {
+  padding: 10px;
+}

@@ -1,0 +1,43 @@
+.sideavatar {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.avatar {
+  display: flex;
+  padding-top: 20px;
+}
+
+.ava {
+  width: 200px;
+  height: 200px;
+}
+
+.description {
+  padding-left: 50px;
+}
+
+.status {
+  padding-top: 100px;
+}
+
+.contacts {
+  padding-left: 100px;
+}
+
+.contacts li {
+  flex-wrap: wrap;
+  padding-bottom: 5px;
+}
+
+.contacts a img {
+  box-sizing: border-box;
+  align-items: center;
+  width: 25px;
+}
+
+h2 {
+  margin: 0px;
+}
