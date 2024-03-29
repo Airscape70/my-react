@@ -14,7 +14,7 @@ let initialState = {
     { id: 2, message: 'wazuuup?' },
     { id: 3, message: 'yooo' },
     { id: 4, message: 'Pyooo' },
-    { id: 5, message: 'lyalya'},
+    { id: 5, message: 'lya'},
   ]
 };
 
